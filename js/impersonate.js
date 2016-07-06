@@ -16,7 +16,7 @@
 		$('<th>&nbsp;</th>').insertAfter('#userlist #headerName');
 		$('<td><a class="action permanent impersonate" href="#" title="' +
 			t('impersonate', 'Impersonate') + '">' +
-			'<img class="svg permanent action" src="/core/img/actions/user.svg" />' +
+			'<img class="svg permanent action" src="' + OC.imagePath('core','actions/user.svg') + '" />' +
 			'</a></td>')
 			.insertAfter('#userlist .name');
 
